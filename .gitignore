@@ -1,0 +1,53 @@
+# --- Basura de compilación (nunca se sube) ---
+/build/
+build/
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+coverage/
+**/doc/api/
+
+# --- Símbolos de ofuscación ---
+app.*.symbols
+app.*.map.json
+
+# --- Android: archivos generados localmente ---
+/android/app/debug
+/android/app/profile
+/android/app/release
+**/android/local.properties
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/wrapper/gradle-wrapper.jar
+**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+*.keystore
+
+# --- IDE ---
+.idea/
+*.iml
+*.ipr
+*.iws
+# La carpeta .vscode SÍ se versiona (launch.json, settings.json, extensions.json)
+.vscode/*
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# --- Sistema operativo y varios ---
+.DS_Store
+Thumbs.db
+*.log
+*.class
+*.pyc
+*.swp
+.history
+.atom/
+.buildlog/
+migrate_working_dir/
